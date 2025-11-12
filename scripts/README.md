@@ -1,11 +1,12 @@
-# Streamlit Dashboard Scripts
+This folder contains Python scripts for preprocessing, utility functions, and data transformations.
 
-This folder contains supporting scripts and documentation for the main Streamlit app.
+## Purpose
+- Hold reusable code for cleaning, merging, or transforming datasets.
+- Scripts are designed to be imported into notebooks or the Streamlit app.
 
-## Usage
-- `app/utils.py`: Data loading and visualization helpers.
-- `app/main.py`: The main entry point for the dashboard.
-
-## Run the app
+## How to Run
+1. Activate the virtual environment.
+2. Ensure dependencies are installed: `pip install -r requirements.txt`
+3. Execute scripts from the command line, for example:
 ```bash
-streamlit run app/main.py
+python scripts/your_script.py
